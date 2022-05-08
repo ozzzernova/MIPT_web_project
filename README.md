@@ -1,6 +1,9 @@
-Пока здесь находится оооочень пробная версия кликера
+# MIPT_web_project
 
-Для установки:
+To start to play the game you should:
 
-1. pip install -r requirments.txt
-2. run flask
+0. Download the project
+1. Change your current directory to the project directory
+2. Write "pip install -r requirements.txt"
+3. Write "FLASK_APP=app.py flask run" in your terminal
+4. Follow the link provided in the terminal
