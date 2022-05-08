@@ -17,21 +17,20 @@
         font-size: 25px;
         text-align: center;
     }
-    #play_button {
+    #back_button {
         width: 200px;
         height: 100px;
-        font-family: Luminari, fantasy;
+        font-family: Courier, monospace;
         background-color: #bb64b7;
-        margin-top: 200px;
-        font-size: 45px;
+        margin-top: 100px;
         line-height: 20px;
+        font-size: 30px;
         user-select: none;
     }
     body {
-        background: #9fcfd3;
-        font-family: monospace;
-        font-size: 25px;
-        text-align: center;
+    background: #9fcfd3;
+    font-family: monospace;
+    text-align: center;
     }
 </style>
 <html lang="en">
@@ -40,8 +39,20 @@
     <title>Clicker game</title>
 </head>
 <body>
-<h1>Do you want to play some clicker?</h1>
-<h4>Click on the button to play</h4>
-<button id="play_button" onclick="document.location='/game'">PLAY</button>
+<h1>RANDOM ACTION</h1>
+<h4>Enter word to get change</h4>
+<BR>
+<form method="post" action="/game/result">
+    <input type="text" name="text">
+    <button type="submit">Get change</button>
+</form>
+<BR>
+<BR>
+<BR>
+<button id="back_button" onclick="document.location='/game'">BACK</button>
 </body>
 </html>
+
+<script>
+
+</script>
